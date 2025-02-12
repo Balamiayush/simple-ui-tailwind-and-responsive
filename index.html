@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="w-full px-4 py-5">
+    <section class="main w-full  h-[500vh] border-[1px] border-gray-800">
+      <div class="page1 w-full position-relative h-screen">
+        <nav id="res-nav" class="w-full flex justify-between items-center p-5">
+          <div class="leftnav flex justify-center items-center gap-5">
+            <span class="w-[50px]">
+              <svg viewBox="0 0 50 50">
+                <path
+                  fill="var(--token-efbc6c56-80fe-4475-9b37-9684d6e92632, rgb(25, 25, 25))"
+                  d="M41.852 50H0V8.112h41.852ZM.668 49.332h40.516V8.78H.668Z"
+                />
+                <path
+                  fill="var(--token-efbc6c56-80fe-4475-9b37-9684d6e92632, rgb(25, 25, 25))"
+                  d="M45.636 45.766H3.786V3.878h41.85Zm-41.184-.668h40.516V4.547H4.452Z"
+                />
+                <path
+                  fill="var(--token-efbc6c56-80fe-4475-9b37-9684d6e92632, rgb(25, 25, 25))"
+                  d="M49.642 41.89H7.792V0h41.85Zm-41.181-.668h40.515V.668H8.461Z"
+                />
+                <path
+                  fill='var(--token-c5c4fdcb-9482-48bb-aedf-353188472aae, rgb(25, 25, 25)) /* {"name":"text/default"} */'
+                  d="M13.424 27.279h9.255v9.257h-9.255Z"
+                />
+              </svg>
+            </span>
+            <span class="w-[60px]">
+              <svg viewBox="0 0 74 16">
+                <path
+                  fill="var(--token-c5c4fdcb-9482-48bb-aedf-353188472aae, rgb(25, 25, 25))"
+                  d="M12.955.212v2.064H2.947v4.848h8.184V9.14H2.947v6.648H.643V.212ZM28.318.212 22.39 10.58v5.208h-2.304V10.58L14.158.212h2.64l5.04 9.096h-1.104L25.678.212ZM33.064.212v13.512h9.168v2.064H30.76V.212ZM47.618.212v13.512h9.168v2.064H45.315V.212ZM61.813 11.924V9.86h8.352v2.064Zm-3.384 3.864L64.789.212h2.448l6.408 15.576h-2.496L65.581 1.724h.864l-5.544 14.064Z"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="center-nav flex justify-center items-center gap-10 text-[14px] font-[helveticaLight]"
+          >
+            <a href="#">SERVICES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">BLOG</a>
+            <a href="#">PAGE v</a>
+            <div class="rightnav">
+              <div
+                class="flex btn flex-col gap-2 p-4 bg-gray-800 text-white text-[15px] rounded-[10px] h-[50px]"
+              >
+                <button href="#">LET'S TALK</button>
+                <button href="#">LET'S TALK</button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="menu-icon">
+          <i class="ri-menu-line"></i>
+        </div>
+        <nav id="main-nav" class="w-full flex justify-between items-center p-5">
+          <div class="leftnav flex justify-center items-center gap-5">
+            <span class="w-[50px]">
+              <svg viewBox="0 0 50 50">
+                <path
+                  fill="var(--token-efbc6c56-80fe-4475-9b37-9684d6e92632, rgb(25, 25, 25))"
+                  d="M41.852 50H0V8.112h41.852ZM.668 49.332h40.516V8.78H.668Z"
+                />
+                <path
+                  fill="var(--token-efbc6c56-80fe-4475-9b37-9684d6e92632, rgb(25, 25, 25))"
+                  d="M45.636 45.766H3.786V3.878h41.85Zm-41.184-.668h40.516V4.547H4.452Z"
+                />
+                <path
+                  fill="var(--token-efbc6c56-80fe-4475-9b37-9684d6e92632, rgb(25, 25, 25))"
+                  d="M49.642 41.89H7.792V0h41.85Zm-41.181-.668h40.515V.668H8.461Z"
+                />
+                <path
+                  fill='var(--token-c5c4fdcb-9482-48bb-aedf-353188472aae, rgb(25, 25, 25)) /* {"name":"text/default"} */'
+                  d="M13.424 27.279h9.255v9.257h-9.255Z"
+                />
+              </svg>
+            </span>
+            <span class="w-[60px]">
+              <svg viewBox="0 0 74 16">
+                <path
+                  fill="var(--token-c5c4fdcb-9482-48bb-aedf-353188472aae, rgb(25, 25, 25))"
+                  d="M12.955.212v2.064H2.947v4.848h8.184V9.14H2.947v6.648H.643V.212ZM28.318.212 22.39 10.58v5.208h-2.304V10.58L14.158.212h2.64l5.04 9.096h-1.104L25.678.212ZM33.064.212v13.512h9.168v2.064H30.76V.212ZM47.618.212v13.512h9.168v2.064H45.315V.212ZM61.813 11.924V9.86h8.352v2.064Zm-3.384 3.864L64.789.212h2.448l6.408 15.576h-2.496L65.581 1.724h.864l-5.544 14.064Z"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="center-nav flex justify-center items-center gap-10 text-[14px] font-[helveticaLight]"
+          >
+            <a href="#">SERVICES</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <a href="#">BLOG</a>
+            <a href="#">PAGE v</a>
+            <div class="rightnav flex items-center gap-5">
+              <div
+                class="flex px-4 py-2 h-[40px] text-center items-center btn flex-col gap-2 bg-gray-800 text-white text-[15px] rounded-[10px]"
+              >
+                <button href="#">LET'S TALK</button>
+                <button href="#">LET'S TALK</button>
+              </div>
+              <div class="line w-[1px] h-[20px] bg-gray-800"></div>
+              <div
+                class="flex items-center gap-5 font-[helveticaLight] font-[14px] font-regular"
+              >
+                <div
+                  class="cirlce flex justify-center items-center w-[30px] h-[30px] border-[1px] border-gray-800 cursor-pointer text-[15px] rounded-[50%] hover:bg-gray-800 hover:text-white transition-all duration-300"
+                >
+                  <p>IN</p>
+                </div>
+                <div
+                  class="cirlce flex justify-center items-center w-[30px] h-[30px] border-[1px] border-gray-800 cursor-pointer text-[15px] rounded-[50%] hover:bg-gray-800 hover:text-white transition-all duration-300"
+                >
+                  <p>EN</p>
+                </div>
+                <div
+                  class="cirlce flex justify-center items-center w-[30px] h-[30px] border-[1px] border-gray-800 cursor-pointer text-[15px] rounded-[50%] hover:bg-gray-800 hover:text-white transition-all duration-300"
+                >
+                  <p>NE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="w-[90%] h-[1px] bg-gray-800 mx-auto"></div>
+        <div class="page1-content w-full  flex relative p-10 lg:flex-row flex-col ">
+          <div class="left  sm:mb-10 sm:w-full ">
+            <h1 class="text-[5rem] font-[hello1] font-bold leading-none">
+              We are a <br />
+              digital agency <br />
+              from Lisbon.
+            </h1>
+            <p class="text-[1.4rem] mt-5">
+              Elevating brands through creative digital solutions, proudly
+              representing Lisbon's vibrant .
+            </p>
+            
+        </div>
+        <svg class="w-[80px] absolute lg:bottom-[4vw] " viewBox="0 0 62 80"><path fill="var(--token-efbc6c56-80fe-4475-9b37-9684d6e92632, rgb(25, 25, 25))" d="M61.28 40.124a.03.03 0 0 0 0-.019.5.5 0 0 0 .017-.1.5.5 0 0 0-.017-.098.03.03 0 0 0 0-.019.4.4 0 0 0-.044-.088L30.926.127l-.011-.01A.335.335 0 0 0 30.657 0a.33.33 0 0 0-.217.077.2.2 0 0 0-.042.04l-.013.01L.071 39.794a.3.3 0 0 0-.046.088v.018a.4.4 0 0 0-.015.098H0q0 .05.015.101v.018q.015.048.046.086L30.362 79.87q.006.006.013.012l.031.033.023.019a.1.1 0 0 0 .04.025l.023.013.05.019h.021q.076.018.148 0h.021l.05-.019.023-.013a.1.1 0 0 0 .039-.025l.023-.019.034-.033.012-.012 30.302-39.667a.3.3 0 0 0 .065-.079m-30.285-8.485h23.134l3.332 4.359H30.995Zm0-.694v-4.359h19.272l3.33 4.359Zm0-5.054v-4.363h15.409l3.333 4.361Zm0-5.058v-4.357h11.543l3.334 4.357Zm0-5.054V11.42h7.683l3.33 4.361Zm0-5.056V6.364h3.818l3.337 4.361Zm0-5.056V1.365l3.288 4.304Zm-.693 33.991H1.047L30.302 1.365Zm.693.695h29.262L30.995 78.647Zm0-.695v-2.965h26.996l2.266 2.965Z"/></svg>            
+            <video
+              src="https://framerusercontent.com/assets/rXAszXcrH4ELEBbdilxkxdbfmrE.mp4"
+              autoplay
+              loop
+              muted
+              class="object-cover rounded-[15px] lg:w-[50%] lg:h-[80vh] "
+            ></video>
+        </div>
+      </div>
+      <div class="page2 w-full h-screen p-10 relative">
+          <div class="line1 w-full h-[1px] bg-black mx-auto  "></div>
+        <div class="w-full  h-[22vh] flex items-center justify-center gap-5 lg:flex-row flex-col ">
+            <div class="flex items-center justify-center gap-5 ">
+                <p>OUR CLIENTS</p>
+                <div class="line w-[1px] h-[60px] bg-gray-800 hidden lg:block"></div>
+            </div>
+            <div class="w-[80%] h-full flex items-center overflow-hidden ">
+                <div class="marquee flex gap-5">
+                    <!-- Box Set 1 -->
+                    <div class="flex gap-5 marquee-content">
+                        <div class="box w-[5rem] h-[5rem] bg-blue-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-green-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-yellow-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-purple-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-pink-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-indigo-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-orange-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-teal-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-cyan-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-emerald-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-rose-500"></div>
+                    </div>
+                    <!-- Duplicate for seamless effect -->
+                    <div class="flex gap-5 marquee-content">
+                        <div class="box w-[5rem] h-[5rem] bg-blue-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-green-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-yellow-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-purple-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-pink-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-indigo-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-orange-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-teal-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-cyan-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-emerald-500"></div>
+                        <div class="box w-[5rem] h-[5rem] bg-rose-500"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="line1 w-full h-[1px] bg-black mx-auto "></div>
+    </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>

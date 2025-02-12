@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica1';
+}
+body{
+    position: relative;
+}
+@font-face {
+    font-family: 'hello1';
+    src: url('./fonts/KFIAZD4RUMEZIYV6FQ3T3GP5PDBDB6JY.woff2');
+}
+@font-face {
+    font-family: 'helvetica1';
+    src: url('./fonts/Helvetica.ttf');
+}
+
+@font-face {
+    font-family: 'helveticaBold';
+    src: url('./fonts/Helvetica-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'helveticaLight';
+    src: url('./fonts/Helvetica-Oblique.ttf');
+}
+
+@font-face {
+    font-family: 'helveticaMedium';
+    src: url('./fonts/HelveticaNeueLTPro-Md.otf');
+}
+.btn button{
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover :nth-child(1){
+    transform: translateY(-2rem);
+    
+}
+.btn:hover :nth-child(2){
+    transform: translateY(-2rem);
+}
+.center-nav a{
+    position: relative;
+}
+.center-nav a:after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    transition: all 0.5s ease-in-out;
+    background-color: #000;
+}
+.center-nav a:hover:after{
+    width: 100%;
+}
+#res-nav{
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+.menu-icon{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #main-nav{
+        display: none;
+    }
+    .leftnav{
+        z-index: 1000;
+    }
+    #res-nav.active{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .center-nav{
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    .menu-icon:hover .center-nav{
+        top: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    .page1-content{
+        flex-direction: column;
+    }
+    .page1-content h1{
+        font-size: 2rem;
+    }
+    .page1-content p{
+        width: 100%;    
+        font-size: 1rem;
+    }
+    .page1-content  video{
+        width: 100%;
+        height: 50vh;
+    }
+    .page1-content .left{
+        width: 100%;
+    }
+    .page1-content svg{
+        right: 0;
+    }
+}
+.marquee {
+    display: flex;
+    width: max-content;
+    animation: move 10s linear infinite;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
